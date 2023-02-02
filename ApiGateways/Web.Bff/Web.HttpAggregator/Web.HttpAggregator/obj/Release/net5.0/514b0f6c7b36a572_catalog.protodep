@@ -1,0 +1,2 @@
+obj\Release\net5.0/Catalog.cs \
+obj\Release\net5.0/CatalogGrpc.cs: ../../../../Services/CatalogAPI/Catalog.API.WebApi/Proto/catalog.proto

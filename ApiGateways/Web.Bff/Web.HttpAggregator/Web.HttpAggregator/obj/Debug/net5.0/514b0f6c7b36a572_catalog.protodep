@@ -1,0 +1,2 @@
+obj\Debug\net5.0/Catalog.cs \
+obj\Debug\net5.0/CatalogGrpc.cs: ../../../../Services/CatalogAPI/Catalog.API.WebApi/Proto/catalog.proto

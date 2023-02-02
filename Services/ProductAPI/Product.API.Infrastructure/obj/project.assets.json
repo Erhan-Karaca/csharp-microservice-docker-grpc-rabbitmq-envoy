@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Product.API.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Product.API.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.API.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Product.API.Models/1.0.0": {
+      "type": "project",
+      "path": "../Product.API.Models/Product.API.Models.csproj",
+      "msbuildProject": "../Product.API.Models/Product.API.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Product.API.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Erhan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\ProductAPI\\Product.API.Infrastructure\\Product.API.Infrastructure.csproj",
+      "projectName": "Product.API.Infrastructure",
+      "projectPath": "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\ProductAPI\\Product.API.Infrastructure\\Product.API.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Erhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\ProductAPI\\Product.API.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Erhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\ProductAPI\\Product.API.Models\\Product.API.Models.csproj": {
+              "projectPath": "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\ProductAPI\\Product.API.Models\\Product.API.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

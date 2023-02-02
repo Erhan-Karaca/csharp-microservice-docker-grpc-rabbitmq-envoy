@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "User.API.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "User.API.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/User.API.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/User.API.Infrastructure.dll": {}
+        }
+      },
+      "User.API.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/User.API.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/User.API.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "User.API.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../User.API.Infrastructure/User.API.Infrastructure.csproj",
+      "msbuildProject": "../User.API.Infrastructure/User.API.Infrastructure.csproj"
+    },
+    "User.API.Models/1.0.0": {
+      "type": "project",
+      "path": "../User.API.Models/User.API.Models.csproj",
+      "msbuildProject": "../User.API.Models/User.API.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "User.API.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Erhan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\UserAPI\\User.API.Services\\User.API.Services.csproj",
+      "projectName": "User.API.Services",
+      "projectPath": "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\UserAPI\\User.API.Services\\User.API.Services.csproj",
+      "packagesPath": "C:\\Users\\Erhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\UserAPI\\User.API.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Erhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\UserAPI\\User.API.Infrastructure\\User.API.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Erhan\\Desktop\\MicroService\\projects\\DemoMicroService\\Services\\UserAPI\\User.API.Infrastructure\\User.API.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

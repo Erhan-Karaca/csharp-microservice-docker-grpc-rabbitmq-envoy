@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: s_user_api
+spec:
+  type: NodePort
+  selector:
+    app: my-user-api
+  ports:
+    - nodePort: 31001
+      protocol: TCP
+      port: 80
+      targetPort: 80

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+//option csharp_namespace = "Catalog.API.WebApi.Proto";
+option csharp_namespace = "GrpcCatalog";
+
+package CatalogApi;
+
+service Catalog {
+	rpc GetCatalogById(CatalogRequest) returns (CatalogResponse) {}
+}
+
+message CatalogRequest {
+	string id = 1;
+}
+
+message CatalogResponse {
+	string id = 1;
+	string name = 2;
+}

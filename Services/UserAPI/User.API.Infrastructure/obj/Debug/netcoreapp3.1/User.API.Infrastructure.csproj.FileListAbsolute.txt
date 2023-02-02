@@ -1,0 +1,12 @@
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\bin\Debug\netcoreapp3.1\User.API.Infrastructure.deps.json
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\bin\Debug\netcoreapp3.1\User.API.Infrastructure.dll
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\bin\Debug\netcoreapp3.1\User.API.Infrastructure.pdb
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\bin\Debug\netcoreapp3.1\User.API.Models.dll
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\bin\Debug\netcoreapp3.1\User.API.Models.pdb
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\obj\Debug\netcoreapp3.1\User.API.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\obj\Debug\netcoreapp3.1\User.API.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\obj\Debug\netcoreapp3.1\User.API.Infrastructure.AssemblyInfo.cs
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\obj\Debug\netcoreapp3.1\User.API.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\obj\Debug\netcoreapp3.1\User.API.Infrastructure.csproj.CopyComplete
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\obj\Debug\netcoreapp3.1\User.API.Infrastructure.dll
+C:\Users\Erhan\source\repos\DemoMicroService\Services\UserAPI\User.API.Infrastructure\obj\Debug\netcoreapp3.1\User.API.Infrastructure.pdb

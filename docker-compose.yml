@@ -1,0 +1,81 @@
+version: "3.4"
+
+services:
+  s_rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+        - 5672:5672
+        - 15672:15672
+    volumes:
+        - rabbitmq:/var/lib/rabbitmq
+    networks:
+        - micro_net
+        - int_net
+
+  s_api_gateway:
+    image: envoyproxy/envoy:v1.11.1
+    ports:
+        - "80:80"
+        - "8001:8001"
+    volumes:
+        - ./ApiGateways/Envoy/config/web:/etc/envoy
+    networks:
+        - micro_net
+        - int_net
+
+  s_user_api:
+    #container_name: c_user_api
+    image: erhankaraca0/userapi
+    build:
+      context: .
+      dockerfile: Services/UserAPI/User.API/Dockerfile
+    ports:
+        - 9000:9000
+    networks:
+        - int_net
+    depends_on: 
+      - s_api_gateway
+
+  s_product_api:
+    #container_name: c_product_api
+    image: erhankaraca0/productapi
+    build:
+      context: .
+      dockerfile: Services/ProductAPI/Product.API/Dockerfile
+    ports:
+        - 9001:9001
+    networks:
+        - int_net
+
+  s_catalog_api:
+    #container_name: c_catalog_api
+    image: erhankaraca0/catalogapi
+    build:
+      context: .
+      dockerfile: Services/CatalogAPI/Catalog.API.WebApi/Dockerfile
+    ports:
+        - 9002:9002
+        - 5001:5001
+    networks:
+        - int_net
+
+  s_api_aggregator:
+    #container_name: c_api_gateway
+    image: erhankaraca0/apiaggregator
+    build:
+      context: .
+      dockerfile: ApiGateways/Web.Bff/Web.HttpAggregator/Web.HttpAggregator/Dockerfile
+    ports:
+        - 9003:9003
+    networks:
+        - int_net
+
+networks:
+  int_net:
+    #driver: overlay
+    internal: true
+  micro_net:
+    driver: bridge
+
+volumes:
+  rabbitmq:

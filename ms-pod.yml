@@ -1,0 +1,27 @@
+#kind: pod # Kaynak türünü belirtiyoruz. Pod, Deployment, Service
+# Desire state(Arzulanan state) Deployement master node içerisinde tanımlanıyor ve ilgili pod ların yönetimini sağlıyor.
+kind: deployment # Düzenli olarak podları kontrol eder ve hizmet dışı kaldığında yeniden ayağa kaldırır.
+replicas: 3 # Resources'den kaç tane ayakta kalmasını istediğimizi tanımlıyoruz
+template: 
+selector: {app_front_end}
+image: app_front_end_container:v1 # Pod ayağa kalktığında kullanacak olduğu image. Daha önce hazırladığımız container image. Her pod 1 image'dan ayağa kalkar.
+label: app_front_end # Etiket 
+
+kind: deployment
+replicas: 2
+template:
+  selector: {app_back_end}
+  image: app_back_end_container_v1
+  label: 
+    app: back_end
+
+kind: service # Service resource: Service deployment etrafına abstraction layer geçirir
+selector: {app_front_end} # Servisin deploymentı görebilmesi için 
+# Servis tipleri
+  # - ClusterIp: Sadece POD'lar birbirlerini görebilir
+  # - NodePort: Clustere içindeki bütüm wm'ler verilen portu dinliyor
+  # - LoadBlaster: 
+type: load_balancer # External ip tanımlanmasını ve dışarıdan erişilmesi için kullanılıyor.
+
+kind: service
+selector: {app_back_end}

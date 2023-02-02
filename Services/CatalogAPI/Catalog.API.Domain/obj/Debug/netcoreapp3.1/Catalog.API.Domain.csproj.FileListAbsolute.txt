@@ -1,0 +1,17 @@
+C:\Users\Erhan\source\repos\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.csprojAssemblyReference.cache
+C:\Users\Erhan\source\repos\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.AssemblyInfoInputs.cache
+C:\Users\Erhan\source\repos\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.AssemblyInfo.cs
+C:\Users\Erhan\source\repos\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Erhan\source\repos\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\bin\Debug\netcoreapp3.1\Catalog.API.Domain.deps.json
+C:\Users\Erhan\source\repos\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\bin\Debug\netcoreapp3.1\Catalog.API.Domain.dll
+C:\Users\Erhan\source\repos\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\bin\Debug\netcoreapp3.1\Catalog.API.Domain.pdb
+C:\Users\Erhan\source\repos\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.dll
+C:\Users\Erhan\source\repos\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.pdb
+C:\Users\Erhan\Desktop\MicroService\projects\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\bin\Debug\netcoreapp3.1\Catalog.API.Domain.deps.json
+C:\Users\Erhan\Desktop\MicroService\projects\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\bin\Debug\netcoreapp3.1\Catalog.API.Domain.dll
+C:\Users\Erhan\Desktop\MicroService\projects\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\bin\Debug\netcoreapp3.1\Catalog.API.Domain.pdb
+C:\Users\Erhan\Desktop\MicroService\projects\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.AssemblyInfoInputs.cache
+C:\Users\Erhan\Desktop\MicroService\projects\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.AssemblyInfo.cs
+C:\Users\Erhan\Desktop\MicroService\projects\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Erhan\Desktop\MicroService\projects\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.dll
+C:\Users\Erhan\Desktop\MicroService\projects\DemoMicroService\Services\CatalogAPI\Catalog.API.Domain\obj\Debug\netcoreapp3.1\Catalog.API.Domain.pdb
